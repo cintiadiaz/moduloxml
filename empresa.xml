@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+    <empleado>
+        <primer_nombre>Cintia</primer_nombre>
+        <apellido>Díaz</apellido>
+        <numero_de_contacto>+34 628 32 41</numero_de_contacto>
+        <correo_electronico>cintiadiazar@gmail.com</correo_electronico>
+        <direccion>
+            <ciudad>Santander</ciudad>
+            <estado>Cantabria</estado>
+            <zip>39007</zip>
+        </direccion>
+    </empleado>
+    <empleado>
+        <primer_nombre>Jose</primer_nombre>
+        <apellido>López</apellido>
+        <numero_de_contacto>+34 628 52 31</numero_de_contacto>
+        <correo_electronico>politus218@gmail.com</correo_electronico>
+        <direccion>
+            <ciudad>Santander</ciudad>
+            <estado>Cantabria</estado>
+            <zip>39005</zip>
+        </direccion>
+    </empleado>
+</empresa>
