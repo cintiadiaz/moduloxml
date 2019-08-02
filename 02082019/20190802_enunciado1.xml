@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedidos>
+    <pedido>
+        <destinatario>Juan Delgado Martínez</destinatario>
+        <articulo>bicicleta A2023</articulo>
+        <direccionEntrega>calle Barco 4, tercer piso, letra A</direccionEntrega>
+        <fechaEntrega>19-5-2000</fechaEntrega>
+    </pedido>
+    <!-- mejorandolo -->
+    <pedido>
+        <destinatario>
+            <nombre>Juan</nombre>
+            <apellidos>Delgado Martínez</apellidos>             
+        </destinatario>
+        <articulo ref="A2023">bicicleta</articulo>
+        <direccion>
+            <Via tipo="calle">Barco</Via>
+            <numero>4</numero>
+            <piso>3</piso>
+            <letra>A</letra>letra>
+        </direccion>
+        <fecha>
+            <dia>19</dia>
+            <mes>5</mes>
+            <año>2000</año>
+        </fecha>
+    </pedido>
+</pedidos>
