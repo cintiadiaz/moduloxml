@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Equipos de futbol -->
+<equipos>
+    <equipo>
+        <nombre>Chelsea Football Club</nombre>
+        <ciudad>Londres</ciudad>
+        <entrenador/>
+<!--         <jugadores> -->
+        <jugador posicion="portero">
+            <nombre>Kepa</nombre>
+            <nacionalidad>Español</nacionalidad>
+        </jugador>
+        <jugador posicion="medio">
+            <nombre>Ross</nombre>
+            <nacionalidad>Inglés</nacionalidad>
+        </jugador>
+<!--        </jugadores>-->
+    </equipo>
+    <equipo>
+        <nombre>Real Madrid</nombre>
+        <ciudad>Madrid</ciudad>
+        <entrenador/>
+        <jugador posicion="defensa">
+            <nombre>Carvajal</nombre>
+            <nacionalidad>Español</nacionalidad>
+        </jugador>
+        <jugador posicion="delantero">
+            <nombre>Lucas Vázquez</nombre>
+            <nacionalidad>Español</nacionalidad>
+        </jugador>
+    </equipo>
+</equipos>
