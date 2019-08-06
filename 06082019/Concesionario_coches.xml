@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concesionario>
+        <coche matricula="7545-MIR">
+            <marca>Volvo</marca>
+            <modelo>XC90</modelo>
+            <color>Blanco</color>
+            <precio>44.990€</precio>
+            <año>2018</año>
+            <kilometraje>27.721 km</kilometraje>
+            <combustible>Diesel</combustible>
+            <garantia>24 meses</garantia>
+    </coche>
+        <coche matricula="8765-CIA">
+            <marca>Citroen</marca>
+            <modelo>AX</modelo>
+            <color>Verde</color>
+            <precio>850€</precio>
+            <año>1998</año>
+            <kilometraje>151.000 km</kilometraje>
+            <combustible>Diésel</combustible>
+            <garantia></garantia>
+    </coche>
+        <coche matricula="3645-KGB">
+            <marca>Mercedes-Benz</marca>
+            <modelo>Clase A</modelo>
+            <color>gris metalizado</color>
+            <precio>15.900 €</precio>
+            <año>2013</año>
+            <kilometraje>112.445 km</kilometraje>
+            <combustible>Diésel</combustible>
+            <garantia>12 meses</garantia>
+    </coche>
+</concesionario>

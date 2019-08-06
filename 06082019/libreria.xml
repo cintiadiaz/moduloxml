@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libreria>
+    <libro ISBN="9782746097360">
+        <titulo>XML PRÁCTICO (2ª ED.)</titulo>
+        <autores>
+            <autor>
+                <nombre>Thierry Boulanger</nombre>
+                <nacionalidad>Francés</nacionalidad>
+            </autor>
+        </autores>
+        <editorial encuadernacion="tapa blanda">ENI</editorial>
+        <fechaPublicacion>1 de Octubre de 2015</fechaPublicacion>
+        <idioma>castellano</idioma>
+        <tematicas>
+            <tema>Programación y lenguajes</tema>
+            <tema>Informática</tema>
+        </tematicas>
+        <nPaginas>379</nPaginas>
+        <precio>29.90 euros</precio>
+        <paginaWeb>https://www.casadellibro.com/libro-xml-practico-2-ed/9782746097360/2610974</paginaWeb>
+    </libro>
+    <libro ISBN="9782409000447">
+        <titulo>Arduino: aprende a desarrollar para crear objetos inteligentes</titulo>
+        <autores>
+            <autor>
+                <nombre>Nicolas Goilav</nombre>
+                <nacionalidad>Francés</nacionalidad>
+            </autor>
+            <autor>
+                <nombre>Geoffrey Loi</nombre>
+                <nacionalidad>Francés</nacionalidad>
+            </autor>
+        </autores>
+        <editorial encuadernacion="tapa blanda">ENI</editorial>
+        <fechaPublicacion>1 de Marzo de 2016</fechaPublicacion>
+        <idioma>castellano</idioma>
+        <tematicas>
+            <tema>Programación y lenguajes</tema>
+            <tema>Informática</tema>
+        </tematicas>
+        <nPaginas>332</nPaginas>
+        <precio>29.90 euros</precio>
+        <paginaWeb>https://www.casadellibro.com/libro-arduino-aprender-a-desarrollar-para-crear-objetos-inteligentes/9782409000447/2913403</paginaWeb>        
+    </libro>
+    <libro ISBN="9788423353705">
+        <titulo>Cinco horas con Mario</titulo>
+        <autores>
+            <autor>
+                <nombre>Miguel Delibes</nombre>
+                <nacionalidad>Español</nacionalidad>
+            </autor>
+        </autores>
+        <editorial encuadernacion="tapa blanda bolsillo">Destino</editorial>
+        <fechaPublicacion>10 de Abril de 2018</fechaPublicacion>
+        <idioma>castellano</idioma>
+        <tematicas>
+            <tema>Narrativa en bolsillo</tema>
+            <tema>Literatura</tema>
+            <tema>Narrativa del siglo XX</tema>
+        </tematicas>
+        <nPaginas>336</nPaginas>
+        <precio>8.95 euros</precio>
+        <paginaWeb>https://www.casadellibro.com/libro-cinco-horas-con-mario/9788423353705/6320074</paginaWeb>        
+    </libro>
+</libreria>

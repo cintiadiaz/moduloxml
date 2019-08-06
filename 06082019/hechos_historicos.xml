@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hechos_historicos[
+    <!ELEMENT hechos_historicos (hecho)*>
+    <!ELEMENT hecho (lugar, fecha)>
+        <!ATTLIST hecho descripcion CDATA #REQUIRED>
+        <!ELEMENT lugar ANY>
+        <!ELEMENT fecha (dia, mes, anio)>
+            <!ELEMENT dia (#PCDATA)>
+            <!ELEMENT mes (#PCDATA)>
+            <!ELEMENT anio (#PCDATA)>
+]>
+
+<hechos_historicos>
+    <hecho descripcion="IBM da a conocer el PC">
+        <lugar>
+        </lugar> <!-- podriamos añadir esto inventado -->
+        <fecha>
+            <dia>12</dia>
+            <mes>8</mes>
+            <anio>1981</anio>
+        </fecha>
+    </hecho>
+    <hecho descripcion="Se funda Google">
+        <lugar></lugar>
+        <fecha>
+            <dia>4</dia>
+            <mes>9</mes>
+            <anio>1998</anio>
+        </fecha>
+    </hecho>
+    <hecho descripcion="Se funda Facebook">
+        <lugar></lugar>
+        <fecha>
+            <dia>4</dia>
+            <mes>2</mes>
+            <anio>2004</anio>
+        </fecha>
+    </hecho>
+</hechos_historicos>
