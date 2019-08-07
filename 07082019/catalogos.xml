@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-stylesheet type="text/css" href="catologo.css"?>-->
+<!DOCTYPE catalogo[
+    <!ELEMENT catalogo (pelicula)+>
+        <!ELEMENT pelicula (duracion, actores, fecha, director, titulo)>
+            <!ATTLIST pelicula genero CDATA #REQUIRED>
+                <!ELEMENT duracion (#PCDATA)>
+                <!ELEMENT actores (actor)+>
+                    <!ELEMENT actor (#PCDATA)>
+                <!ELEMENT fecha (#PCDATA)>
+                <!ELEMENT director (#PCDATA)>
+                <!ELEMENT titulo (#PCDATA)>
+]>
+
+<catalogo>
+<!--    <peliculas> sobra, es reiterativo -->
+    <pelicula genero="Ciencia ficción">
+        <duracion>101</duracion>
+        <actores>
+            <actor>Bill Murray</actor>
+            <actor>Andie MacDowell</actor>
+        </actores>
+        <fecha>1993</fecha>
+        <director>Harold Ramis</director>
+        <titulo>El día de la marmota</titulo>
+    </pelicula>
+    <pelicula genero="Drama/Suspense">
+        <duracion>100</duracion>
+        <actores>
+            <actor>Ryan Gosling</actor>
+            <actor>Carey Mulligan</actor>
+        </actores>
+        <fecha>2011</fecha>
+        <director>Nicolas Winding Refn</director>
+        <titulo>Drive</titulo>
+    </pelicula>
+<!--    </peliculas>-->
+</catalogo>

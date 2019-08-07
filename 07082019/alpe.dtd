@@ -1,0 +1,9 @@
+<!ELEMENT alpeformacion (aula+)>
+    <!ELEMENT aula (puestos, aireacondicionado?, certificado*)>
+    <!-- se ajusta más a la realidad el * porque hay aulas donde no se dan certif -->
+        <!ATTLIST aula numero CDATA #REQUIRED>
+            <!ELEMENT puestos (#PCDATA)>
+            <!ELEMENT aireacondicionado EMPTY>
+            <!ELEMENT certificado (nombre, horas)>
+                <!ELEMENT nombre (#PCDATA)>
+                <!ELEMENT horas (#PCDATA)>

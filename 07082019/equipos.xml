@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE equipos [
+    <!ELEMENT equipos (equipo+)> <!-- + 1 o muchos, * 0 o muchos-->
+    <!ELEMENT equipo (nombre, ciudad, entrenador, jugadores)>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT ciudad (#PCDATA)>
+        <!ELEMENT entrenador EMPTY>
+        <!ELEMENT jugadores (jugador)+>
+            <!ELEMENT jugador (nombre, nacionalidad)>
+                <!ATTLIST jugador posicion CDATA #REQUIRED>
+<!--    <!ELEMENT nombrej (#PCDATA)>  habría que definir jugador (nombrej, nacionalidad)              
+        <!ELEMENT nombre (#PCDATA)> ya está definido arriba 
+-->
+                    <!ELEMENT nacionalidad (#PCDATA)>
+]>
+<!-- Equipos de futbol -->
+<equipos>
+    <equipo>
+        <nombre>Chelsea Football Club</nombre>
+        <ciudad>Londres</ciudad>
+        <entrenador/>
+        <jugadores> 
+            <jugador posicion="portero">
+                <nombre>Kepa</nombre>
+                <nacionalidad>Español</nacionalidad>
+            </jugador>
+            <jugador posicion="medio">
+                <nombre>Ross</nombre>
+                <nacionalidad>Inglés</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+    <equipo>
+        <nombre>Real Madrid</nombre>
+        <ciudad>Madrid</ciudad>
+        <entrenador/>
+        <jugadores>
+            <jugador posicion="defensa">
+                <nombre>Carvajal</nombre>
+                <nacionalidad>Español</nacionalidad>
+            </jugador>
+            <jugador posicion="delantero">
+                <nombre>Lucas Vázquez</nombre>
+                <nacionalidad>Español</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+</equipos>
