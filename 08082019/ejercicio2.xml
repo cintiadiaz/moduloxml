@@ -1,0 +1,10 @@
+<!ATTLIST alumno matricula CDATA #REQUIRED
+                 curso ("1"|"2"|"3"|"4"|"5"|"Doc") #IMPLIED
+                 becado ("Sí"|"No") "No"
+>
+<!-- 
+el elemento alumno tiene tres atributos, matricula, curso y becado
+matricula es de tipo cadena de caracteres y es requerido
+curso es un atributo opcional y puede tener los valores: 1, 2, 3, 4, 5 o Doc
+becado es un atributo que puede tener dos valores: Sí o No y por defecto es No
+-->
