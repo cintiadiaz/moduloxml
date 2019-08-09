@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE agenda SYSTEM "agenda.dtd">
+<agenda>
+    <persona>
+        <nombre id="1">Ricardo Borriquero</nombre>
+        <tlf>951345678</tlf>
+    </persona>
+    <persona>
+        <nombre id="2">Eva Risto</nombre>
+        <tlf>955837659</tlf>
+    </persona>
+</agenda>

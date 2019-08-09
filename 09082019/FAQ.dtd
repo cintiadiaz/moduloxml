@@ -1,0 +1,13 @@
+<!ELEMENT FAQ (info, part+)>
+    <!ELEMENT info (titulo, autor, email, version, fecha)>
+        <!ELEMENT titulo (#PCDATA)>
+        <!ELEMENT autor (#PCDATA)>
+        <!ELEMENT email (#PCDATA)>
+        <!ELEMENT version (#PCDATA)>
+        <!ELEMENT fecha (#PCDATA)>
+    <!ELEMENT part (Q+)>
+        <!ATTLIST part number CDATA #REQUIRED>
+        <!ELEMENT Q (QTEXT, a)>
+            <!ATTLIST Q id CDATA #REQUIRED>
+                <!ELEMENT QTEXT (#PCDATA)>
+                <!ELEMENT a (#PCDATA)>

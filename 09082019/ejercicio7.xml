@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FAQ SYSTEM "FAQ.dtd">
+<FAQ>
+    <info>
+        <titulo>FAQs sobre GIT</titulo>
+        <autor>Daniel Sanzo García</autor>
+        <email>dani@sanzo.es</email>
+        <version>1.0</version>
+        <fecha>07.JULIO.2018</fecha>
+    </info>
+    <part number="1">
+        <Q id="1">
+            <QTEXT>¿Con qué comando deshago cambios de un archivo?</QTEXT>
+            <a>Yo diría que lo que necesitas es git checkout -- archivo</a>
+        </Q>
+        <Q id="2">
+            <QTEXT>¿Y para volver a un commit anterior?</QTEXT>
+            <a>Muy parecido a la anterior pero quitando -- archivo y poniendo el hash del commit</a>
+        </Q>
+    </part>
+</FAQ>
