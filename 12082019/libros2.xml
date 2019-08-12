@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libro SYSTEM "libros2.dtd">
+<Libro id="1">
+    <Titulo>La casa encantada</Titulo>
+    <Contenido>
+        <Capitulo materia="Introduccion">
+            <Tema>La inocencia</Tema>
+            <Seccion apartados="3" dificil="Sí">Novela corta</Seccion>
+        </Capitulo>
+        <Separacion/>
+        <Capitulo materia="Desarrollo">
+            <Tema>La madurez</Tema>
+            <Seccion apartados="5">Novela Corta</Seccion>
+        </Capitulo>
+        <Separacion/>
+    </Contenido>
+      <Copyright>2019 Ediciones El libron</Copyright>    
+</Libro>

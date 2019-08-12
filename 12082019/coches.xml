@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE coches SYSTEM "concesionario.dtd">
+<coches>
+    <coche numbastidor="VSS023A0000123456">
+        <carroceria>
+                <color tipo="basico">blanco</color>
+                <numpuertas>5</numpuertas>
+        </carroceria>
+        <motor>
+            <cilindrada>1.756 cm3</cilindrada>
+            <cv>107 CV a 6.000 rpm</cv>
+            <cgasolina>7 litros por 100 km</cgasolina>
+        </motor>
+        <especificaciones>
+            <marca>SEAT</marca>
+            <modelo>131</modelo>
+            <estado id="nuevo"/>
+        </especificaciones>
+    </coche>
+    <coche numbastidor="VF7MANK0000NK0001">
+        <carroceria>
+                <color tipo="metalizado">gris</color>
+                <numpuertas>5</numpuertas>
+        </carroceria>
+        <motor>
+            <cilindrada>2.500 cm3</cilindrada>
+            <cv>168 CV a 6.000 rpm</cv>
+            <cdiesel>8.65 litros por 100 km</cdiesel>
+        </motor>
+        <especificaciones>
+            <marca>Citröen</marca>
+            <modelo>CX</modelo>
+            <estado id="usado"/>
+        </especificaciones>
+    </coche>
+</coches>
