@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- espacio de nombres -->
+<pa:instituto 
+        xmlns:pa='http://www.wikinsti.com/pas'
+        xmlns:profes='http://www.wikinsti.com/profesores'
+        xmlns:alums='http://www.wikinsti.com/alumnos'
+        especialidad="ciencias">
+    <pa:pas>
+        <pa:nombre>maria</pa:nombre>
+        <pa:apellidos>ruiz</pa:apellidos>
+        <pa:puesto>secretaria</pa:puesto>
+        <pa:tfno>942 25 25 25</pa:tfno>
+    </pa:pas>
+    <profes:profesores>
+        <profes:nombre>jose</profes:nombre>
+        <profes:apellidos>martinez</profes:apellidos>
+        <profes:asignatura>matematicas</profes:asignatura>
+        <profes:tfno>942 25 25 26</profes:tfno>
+    </profes:profesores>
+    <alums:alumnos>
+        <alums:nombre>ana</alums:nombre>
+        <alums:apellidos>sanchez</alums:apellidos>
+        <alums:curso>primero</alums:curso>
+        <alums:tfno>942 25 25 21</alums:tfno>
+    </alums:alumnos>
+    
+</pa:instituto>

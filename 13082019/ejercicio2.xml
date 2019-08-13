@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- espacio de nombres -->
+<!-- hacemos el DTD interno -->
+<!DOCTYPE pa:instituto [
+      <!ELEMENT pa:instituto (pa:pas, profes:profesores, alums:alumnos)>
+      <!ATTLIST pa:instituto xmlns:pa CDATA #FIXED "http://www.wikinsti.com/pas">
+      <!ATTLIST pa:instituto xmlns:profes CDATA #FIXED "http://www.wikinsti.com/profesores">
+      <!ATTLIST pa:instituto xmlns:alums CDATA #FIXED "http://www.wikinsti.com/alumnos">
+      <!ATTLIST pa:instituto pa:especialidad CDATA #REQUIRED>
+       <!ELEMENT pa:pas (pa:nombre, pa:apellidos, pa:puesto, pa:tfno)>
+          <!ELEMENT pa:nombre (#PCDATA)>
+          <!ELEMENT pa:apellidos (#PCDATA)>
+          <!ELEMENT pa:puesto (#PCDATA)>
+          <!ELEMENT pa:tfno (#PCDATA)>
+      <!ELEMENT profes:profesores (profes:nombre, profes:apellidos, profes:asignatura, profes:tfno)>
+        <!ELEMENT profes:nombre (#PCDATA)>
+        <!ELEMENT profes:apellidos (#PCDATA)>
+        <!ELEMENT profes:asignatura (#PCDATA)>
+        <!ELEMENT profes:tfno (#PCDATA)>
+      <!ELEMENT alums:alumnos (alums:nombre, alums:apellidos, alums:curso, alums:tfno)>
+        <!ELEMENT alums:nombre (#PCDATA)>
+        <!ELEMENT alums:apellidos (#PCDATA)>
+        <!ELEMENT alums:curso (#PCDATA)>
+        <!ELEMENT alums:tfno (#PCDATA)>
+]>
+<pa:instituto pa:especialidad="ciencias">
+        <!-- 
+        xmlns:pa="http://www.wikinsti.com/pas"
+        xmlns:profes="http://www.wikinsti.com/profesores"
+        xmlns:alums="http://www.wikinsti.com/alumnos"
+        
+        -->
+        <!-- todo esto de arriba son atributos y ademas se declaran fijos en el dtd, por lo que hay que quitarlos
+              excepto especialidad
+         -->
+  <pa:pas>
+        <pa:nombre>maria</pa:nombre>
+        <pa:apellidos>ruiz</pa:apellidos>
+        <pa:puesto>secretaria</pa:puesto>
+        <pa:tfno>942 25 25 25</pa:tfno>
+    </pa:pas>
+    <profes:profesores>
+        <profes:nombre>jose</profes:nombre>
+        <profes:apellidos>martinez</profes:apellidos>
+        <profes:asignatura>matematicas</profes:asignatura>
+        <profes:tfno>942 25 25 26</profes:tfno>
+    </profes:profesores>
+    <alums:alumnos>
+        <alums:nombre>ana</alums:nombre>
+        <alums:apellidos>sanchez</alums:apellidos>
+        <alums:curso>primero</alums:curso>
+        <alums:tfno>942 25 25 21</alums:tfno>
+    </alums:alumnos>
+    
+</pa:instituto>

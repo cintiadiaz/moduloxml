@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pa:instituto xmlns:pa="http://www.consultoriacme.com/xml/nspas"
+                      xmlns:pr="http://www.consultoriacme.com/xml/nsprofesores"
+                      xmlns:al="http://www.consultoriacme.com/xml/alumnos"
+                      especialidad="ciencias">
+    <!-- no es bueno poner el mismo nombre a la etiqueta y al abreviado -->
+    <pa:pas>
+      <pa:nombre></pa:nombre>
+      <pa:apellidos></pa:apellidos>
+      <pa:puesto></pa:puesto>
+      <pa:telefono></pa:telefono>
+    </pa:pas>
+                
+                
+                
+                
+                
+                
+                
+  </pa:instituto>
