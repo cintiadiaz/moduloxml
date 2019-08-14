@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE din:inversiones [
+    <!ELEMENT din:inversiones (geo:pais+)>
+        <!ATTLIST din:inversiones xmlns:geo CDATA #FIXED "http://www.cintiasolutions.com/xml/pais">
+        <!ATTLIST din:inversiones xmlns:din CDATA #FIXED "http://www.cintiasolutions.com/xml/dinero">
+        <!ELEMENT geo:pais (geo:capital, din:capital)>
+            <!ATTLIST geo:pais geo:nombre CDATA #REQUIRED>
+                <!ELEMENT geo:capital (#PCDATA)>
+                <!ELEMENT din:capital (#PCDATA)>
+]>
+<din:inversiones>
+    <geo:pais geo:nombre="España">
+        <geo:capital>Madrid</geo:capital>
+        <din:capital>2000€</din:capital>
+    </geo:pais>
+</din:inversiones>

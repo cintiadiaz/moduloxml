@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aena [
+  <!ELEMENT aena (aer:aeropuerto+, ops:operadores)>
+    <!ELEMENT aer:aeropuerto (aer:nombre, aer:vuelos, aer:fecha)>
+        <!ATTLIST aer:aeropuerto xmlns:aer CDATA #FIXED "http://www.cintiasolutions.com/xml/aeropuertos">
+          <!ELEMENT aer:nombre (#PCDATA)>
+          <!ELEMENT aer:vuelos (aer:vuelo+)>
+           <!ELEMENT aer:vuelo (aer:diario?, aer:origen, aer:destino, aer:horaSalida, aer:horaLlegada)>
+            <!ATTLIST aer:vuelo aer:codigo ID #REQUIRED>
+            <!ATTLIST aer:vuelo aer:estado (C|E|R) "E">
+              <!ELEMENT aer:diario EMPTY>
+              <!ELEMENT aer:origen (#PCDATA)>
+              <!ELEMENT aer:destino (#PCDATA)>
+              <!ELEMENT aer:horaSalida (#PCDATA)>
+              <!ELEMENT aer:horaLlegada (#PCDATA)> 
+          <!ELEMENT aer:fecha (#PCDATA)>
+    <!ELEMENT ops:operadores (ops:operador+)>
+      <!ATTLIST ops:operadores xmlns:ops CDATA #FIXED "http://www.cintiasolutions.com/xml/operadores">
+      <!ELEMENT ops:operador (ops:nombre, ops:origen+, ops:destino+)>
+             <!ELEMENT ops:nombre (#PCDATA)>
+            <!ELEMENT ops:origen (#PCDATA)>
+            <!ELEMENT ops:destino (#PCDATA)>
+]>
+<aena>
+<aer:aeropuerto xmlns:aer="http://www.cintiasolutions.com/xml/aeropuertos">
+  <aer:nombre>SDR</aer:nombre>
+  <aer:vuelos>
+    <aer:vuelo aer:codigo="IBE055" aer:estado="R">
+      <aer:diario/>
+      <aer:origen>Santander</aer:origen>
+      <aer:destino>Madrid</aer:destino>
+      <aer:horaSalida>13:50</aer:horaSalida>
+      <aer:horaLlegada>15:00</aer:horaLlegada>
+    </aer:vuelo>
+    <aer:vuelo aer:codigo="VLG1591" aer:estado="E">
+      <aer:origen>Santander</aer:origen>
+      <aer:destino>Barcelona</aer:destino>
+      <aer:horaSalida>17:55</aer:horaSalida>
+      <aer:horaLlegada>19:05</aer:horaLlegada>
+    </aer:vuelo>
+  </aer:vuelos>
+  <aer:fecha>14/08/2019</aer:fecha>
+</aer:aeropuerto>
+<ops:operadores xmlns:ops="http://www.cintiasolutions.com/xml/operadores">
+  <ops:operador>
+    <ops:nombre>Wizz Air</ops:nombre>
+    <ops:origen>Santander</ops:origen>
+    <ops:destino>Katowice</ops:destino>
+    <ops:destino>Bucharest</ops:destino>
+  </ops:operador>  
+</ops:operadores>
+</aena>
