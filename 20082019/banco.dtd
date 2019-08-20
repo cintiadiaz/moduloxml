@@ -1,0 +1,18 @@
+<!ELEMENT sucursal (cuenta+)>
+    <!ATTLIST sucursal codigo NMTOKEN #REQUIRED>
+        <!ELEMENT cuenta (cliente, domiciliacion,prestamo)+>
+            <!ATTLIST cuenta codigo NMTOKEN #REQUIRED>
+                <!ELEMENT cliente (operacion+,privilegio)>
+                    <!ATTLIST cliente NIF NMTOKEN #REQUIRED>
+                        <!ELEMENT operacion (nombre, fecha)>
+                            <!ELEMENT nombre (#PCDATA)>
+                            <!ELEMENT fecha (#PCDATA)>
+                        <!ELEMENT privilegio (#PCDATA)>
+                <!ELEMENT domiciliacion (id,fecha,cantidad,concepto)>
+                    <!ELEMENT id (#PCDATA)>
+                    <!ELEMENT cantidad (#PCDATA)>
+                    <!ELEMENT concepto (#PCDATA)>
+                <!ELEMENT prestamo (id,fecha,cantidad,interes)>
+                    <!ELEMENT interes (#PCDATA)>
+                        
+                            

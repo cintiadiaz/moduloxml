@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sucursal SYSTEM "banco.dtd">
+<sucursal codigo="123">
+    <cuenta codigo="a123">
+        <cliente NIF="72045">
+            <operacion>
+                <nombre></nombre>
+                <fecha></fecha>
+            </operacion>
+            <privilegio></privilegio>
+        </cliente>
+        <domiciliacion>
+            <id></id>
+            <fecha></fecha>
+            <cantidad></cantidad>
+            <concepto></concepto>
+        </domiciliacion>
+        <prestamo>
+            <id></id>
+            <fecha></fecha>
+            <cantidad></cantidad>
+            <interes></interes>
+        </prestamo>
+    </cuenta>
+</sucursal>
