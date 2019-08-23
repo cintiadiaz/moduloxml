@@ -1,7 +1,7 @@
 ﻿<?xml version = "1.0" encoding = "UTF-8"?>
 <factura n_fac="f999"
               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-              xsi:noNamespaceSchemaLocation="factura.xsd">
+              xsi:noNamespaceSchemaLocation="factura2.xsd">
   <datos_empresa>
     <nombre>Equipos Digitales S.L.</nombre>
     <dir>Av. Valladolid</dir>
