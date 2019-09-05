@@ -10,15 +10,21 @@
  <xs:complexType name="helado">  
       <xs:sequence>
         <xs:choice>
-            <xs:element name="chocolate" type=cantidad/>
-            <xs:element name="fresa" type=cantidad/>
+            <xs:element name="chocolate" type="cantidadGramos"/>
+            <xs:element name="fresa" type="cantidadGramos"/>
         </xs:choice>   
         <xs:choice>
-            <xs:element name="vainilla" type=cantidad/>
-            <xs:element name="turron" type=cantidad/>
-            <xs:element name="nata" type=cantidad/>
+            <xs:element name="vainilla" type="cantidadGramos"/>
+            <xs:element name="turron" type="cantidadGramos"/>
+            <xs:element name="nata" type="cantidadGramos"/>
         </xs:choice>      
        </xs:sequence>      
-             <xs:attribute name="fabricación" type="xs:date"/>    
+       <xs:attribute name="fabricación" type="xs:date"/>    
 </xs:complexType>  
+<xs:simpleType name="cantidadGramos">  
+  <xs:restriction base="xs:integer">
+    <xs:minInclusive value="0"/>
+    <xs:maxInclusive value="1000"/>
+  </xs:restriction>
+</xs:simpleType> 
 </xs:schema>
