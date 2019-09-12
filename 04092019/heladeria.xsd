@@ -3,11 +3,11 @@
   <xs:element name="heladeria">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="helado" maxOccurs="unbounded"/>
+        <xs:element name="helado" type="gelato" maxOccurs="unbounded"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-    <xs:complexType name="helado">
+    <xs:complexType name="gelato">
     <xs:sequence>
       <xs:choice>
         <xs:element name="fresa"/>        
