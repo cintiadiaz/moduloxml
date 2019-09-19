@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tabla_periodica xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabla_periodica.xsd">
+  <atomo estado="gas">
+    <nombre>Hidrógeno</nombre>
+    <simbolo>H</simbolo>
+    <numero_atomico>1</numero_atomico>
+    <peso_atomico>1.00794</peso_atomico>
+    <punto_ebullicion unidades="kelvin">20.28</punto_ebullicion>
+    <densidad unidades="gramos/centrimos cúbicos">0.0899</densidad>
+  </atomo>
+<atomo estado="líquido">
+    <nombre>Hidrógeno</nombre>
+    <simbolo>K</simbolo>
+    <numero_atomico>1</numero_atomico>
+    <peso_atomico>1.00794</peso_atomico>
+    <punto_ebullicion>20.28</punto_ebullicion>
+    <densidad unidades="gramos/centrimos cúbicos">0.0899</densidad>
+  </atomo>
+</tabla_periodica>

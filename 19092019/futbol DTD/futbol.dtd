@@ -1,0 +1,5 @@
+<!ELEMENT temporada (jornada+)>
+  <!ATTLIST temporada anyo CDATA #REQUIRED>
+  <!ELEMENT jornada (partido+)>
+    <!ATTLIST jornada numero CDATA #REQUIRED>
+  
