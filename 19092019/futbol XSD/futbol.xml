@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<temporada anyo="2007" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="futbol.xsd">
+  <jornada numero="1">
+    <partido numero="1">
+      <fecha>2007-09-04</fecha>
+      <estadio asistencia="53000">Vicente Calderon</estadio>
+      <local>At. Madrid</local>
+      <visitante>Sevilla</visitante>
+      <resultado local="3" visitante="1"/>
+    </partido>
+    <partido numero="2">
+      <fecha>2007-09-05</fecha>
+      <estadio asistencia="26000">La Rosaleda</estadio>
+      <local>Málaga</local>
+      <visitante>Zaragoza</visitante>
+      <resultado local="0" visitante="2"/>
+    </partido>
+    <partido numero="3">
+      <fecha>2007-09-05</fecha>
+      <estadio asistencia="26000">La Rosaleda</estadio>
+      <local>Málaga</local>
+      <visitante>Zaragoza</visitante>
+      <resultado local="0" visitante="2"/>
+    </partido>
+ </jornada>
+  <jornada numero="2">
+    <partido numero="1">
+      <fecha>2007-09-11</fecha>
+      <estadio>Santiago Bernabeu</estadio>
+      <local>R. Madrid</local>
+      <visitante>Dep. Corunya</visitante>
+      <aplazado/>
+    </partido>
+    <partido numero="1">
+      <fecha>2007-09-11</fecha>
+      <estadio>Santiago Bernabeu</estadio>
+      <local>R. Madrid</local>
+      <visitante>Dep. Corunya</visitante>
+      <aplazado/>
+    </partido>
+    <partido numero="3">
+      <fecha>2007-09-05</fecha>
+      <estadio asistencia="26000">La Rosaleda</estadio>
+      <local>Málaga</local>
+      <visitante>Zaragoza</visitante>
+      <resultado local="0" visitante="2"/>
+    </partido>
+  </jornada>
+</temporada>

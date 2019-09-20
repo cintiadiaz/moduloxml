@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="temporada">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="jornada" type="tipoJornada" maxOccurs="2"/>
+      </xs:sequence>
+      <xs:attribute name="anyo" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="tipoJornada">
+    <xs:sequence>
+      <xs:element name="partido" type="tipoPartido" maxOccurs="3"/>
+    </xs:sequence>
+    <xs:attribute name="numero" type="xs:integer" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="tipoPartido">
+    <xs:sequence>
+      <xs:element name="fecha" type="xs:date"/>
+      <xs:element name="estadio">
+        <xs:complexType>
+          <xs:simpleContent>
+            <xs:extension base="xs:string">
+              <xs:attribute name="asistencia">
+                <xs:simpleType>
+                  <xs:restriction base="xs:integer">
+                    <xs:minInclusive value="0"/>
+                    <xs:maxInclusive value="100000"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+            </xs:extension>
+          </xs:simpleContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="local" type="tipoEquipo"/>
+      <xs:element name="visitante" type="tipoEquipo"/>
+      <xs:choice>
+        <xs:element name="resultado">
+          <xs:complexType>
+            <xs:attribute name="local" type="xs:integer" use="required"/>
+            <xs:attribute name="visitante" type="xs:integer" use="required"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="aplazado"/>
+      </xs:choice>
+    </xs:sequence>
+    <xs:attribute name="numero" type="xs:integer" use="required"/>
+  </xs:complexType>
+  <xs:simpleType name="tipoEquipo">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="At. Madrid|Barcelona|Dep. Corunya|Málaga|R. Madrid|Valencia|Sevilla|Zaragoza"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
