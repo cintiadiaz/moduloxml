@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mensajes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="mensajes.xsd">
+  <mensaje>
+    <email respuesta="no">
+      <cabecera>
+        <emisor>antonio</emisor>
+        <receptor>belen</receptor>
+        <receptor>carlos</receptor>
+      </cabecera>
+      <asunto>Hola ¿Qué tal?</asunto>
+      <texto>¿Queréis quedar otro día?
+        <saludo>Hasta luego</saludo>
+      </texto>
+      <texto>pd: hace mucho calor</texto>
+    </email>
+  </mensaje>
+  <mensaje>
+    <carta respuesta="si">
+      <encabezado>
+        <emisor>elena</emisor>
+        <receptor>esteban</receptor>
+        <fecha>2019-09-20</fecha>
+      </encabezado>
+      <texto>Yo propongo ir a hacer la ruta del saja<saludo>Un saludo</saludo>ya me dices</texto>   
+    </carta>
+  </mensaje>
+</mensajes>
